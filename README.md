@@ -107,7 +107,7 @@ python manage.py makemigrations
 
 python manage.py migrate
 
-python manage.py createsuperuser(创建登录用户)
+python manage.py createsuperuser(创建登录用户)（在此创建了用户，下一个数据库脚本最后一句会报错，主键重复，此步相当于手动创建了超级用户了，下面那条SQL脚本的admin用户忽略就好。by ShengMinjie）
 
 ##### 执行数据库脚本
 
