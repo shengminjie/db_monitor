@@ -1,11 +1,11 @@
 # By ShengMinjie
 ##补充
-报错：   MySQLdb/_mysql.c:38:20: fatal error: Python.h: No such file or directory
+- 报错：   MySQLdb/_mysql.c:38:20: fatal error: Python.h: No such file or directory
      #include "Python.h"
                         ^
     compilation terminated.
     error: command 'gcc' failed with exit status 1
-需要：yum install python3-devel
+- 需要：yum install python3-devel
 
 # DB monitor数据库监控平台
 
